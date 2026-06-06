@@ -1,4 +1,4 @@
-package com.davysouza.horista.ui.component
+package com.davysouza.horista.ui.components
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.davysouza.horista.ui.components.buttons.MoreButton
 import com.davysouza.horista.ui.theme.Gray10
 import java.time.LocalDate
 import java.time.format.TextStyle
@@ -39,7 +40,7 @@ fun Header(
             )
         }
 
-        MoreOptionsMenu()
+        MoreButton()
     }
 }
 

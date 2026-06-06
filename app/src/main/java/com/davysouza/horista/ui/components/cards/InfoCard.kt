@@ -1,4 +1,4 @@
-package com.davysouza.horista.ui.component
+package com.davysouza.horista.ui.components.cards
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
@@ -18,42 +18,40 @@ import androidx.compose.ui.unit.sp
 import com.davysouza.horista.ui.theme.Gray10
 import com.davysouza.horista.ui.theme.Gray20
 import com.davysouza.horista.ui.theme.Gray50
-import com.davysouza.horista.ui.theme.Green50
-import com.davysouza.horista.ui.theme.Purple10
 
 @Composable
-fun EnergyCard(
+fun InfoCard(
     @StringRes title: Int,
-    @StringRes description: Int,
+    value: String,
     modifier: Modifier = Modifier
 ) {
     Card(
         shape = RoundedCornerShape(28.dp),
-        colors = CardDefaults.cardColors(containerColor = Green50),
+        colors = CardDefaults.cardColors(containerColor = Gray50),
         modifier = modifier.fillMaxWidth()
     ) {
         Column(
-            verticalArrangement = Arrangement.spacedBy(8.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
             modifier = Modifier
                 .padding(
                     top = 20.dp,
-                    bottom = 20.dp,
-                    start = 28.dp,
-                    end = 40.dp
+                    bottom = 28.dp,
+                    start = 20.dp,
+                    end = 20.dp
                 )
         ) {
             Text(
-                text = stringResource(title),
-                fontSize = 18.sp,
-                fontWeight = FontWeight.ExtraBold,
-                color = Purple10
+                text = "${stringResource(title)}:",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold,
+                color = Gray20
             )
 
             Text(
-                text = stringResource(description),
-                fontSize = 14.sp,
-                fontWeight = FontWeight.Medium,
-                color = Gray20
+                text = value,
+                fontSize = 30.sp,
+                fontWeight = FontWeight.ExtraBold,
+                color = Gray10
             )
         }
     }

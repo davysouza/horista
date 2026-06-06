@@ -1,4 +1,4 @@
-package com.davysouza.horista.ui.component
+package com.davysouza.horista.ui.components.cards
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -30,7 +30,7 @@ import com.davysouza.horista.ui.theme.Gray30
 import com.davysouza.horista.ui.theme.Purple30
 
 @Composable
-fun MainCard(
+fun MoodCard(
     @StringRes text: Int,
     @StringRes subtext: Int,
     @StringRes chipsText: Int,
@@ -40,7 +40,7 @@ fun MainCard(
     Card(
         shape = RoundedCornerShape(32.dp),
         colors = CardDefaults.cardColors(containerColor = Purple30),
-        modifier = modifier.fillMaxWidth()
+        modifier = modifier.fillMaxWidth().height(210.dp)
     ) {
         Column(
             verticalArrangement = Arrangement.spacedBy(20.dp),

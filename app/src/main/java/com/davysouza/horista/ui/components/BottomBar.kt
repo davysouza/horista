@@ -1,4 +1,4 @@
-package com.davysouza.horista.ui.component
+package com.davysouza.horista.ui.components
 
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
@@ -20,10 +20,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.davysouza.horista.R
-import com.davysouza.horista.ui.theme.Purple10
 import com.davysouza.horista.ui.theme.Gray20
-import com.davysouza.horista.ui.theme.Purple30
+import com.davysouza.horista.ui.theme.Purple10
 import com.davysouza.horista.ui.theme.Purple20
+import com.davysouza.horista.ui.theme.Purple30
 
 @Composable
 fun BottomBar(modifier: Modifier = Modifier) {
@@ -38,12 +38,7 @@ fun BottomBar(modifier: Modifier = Modifier) {
         NavigationBarItem(
             text = R.string.history,
             icon = Icons.Outlined.WorkHistory
-        ),
-
-//        NavigationBarItem(
-//            text = R.string.settings,
-//            icon = Icons.Outlined.Settings
-//        )
+        )
     )
 
     NavigationBar(modifier = modifier) {

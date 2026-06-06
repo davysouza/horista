@@ -14,4 +14,9 @@
     <string name="start_time">Start time</string>
     <string name="todays_time">Today\'s time</string>
     <string name="complete_journey">Complete journey</string>
+    <string name="save_goal">Save goal</string>
+    <string name="daily_goal">Daily goal</string>
+    <string name="daily_goal_description">The mood shifits when you go past this goal.</string>
+    <string name="focused_mood">focused</string>
+    <string name="no_breaks">no breaks</string>
 </resources>

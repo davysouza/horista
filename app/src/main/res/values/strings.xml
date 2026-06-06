@@ -13,4 +13,9 @@
     <string name="start_time">Horário de início</string>
     <string name="todays_time">Tempo de hoje</string>
     <string name="complete_journey">Encerrar jornada</string>
+    <string name="save_goal">Salvar meta</string>
+    <string name="daily_goal">Meta diária</string>
+    <string name="daily_goal_description">A energia começa a mudar quando você passa dessa meta.</string>
+    <string name="focused_mood">focada</string>
+    <string name="no_breaks">sem pausas</string>
 </resources>
