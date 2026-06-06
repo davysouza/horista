@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Horista</string>
+    <string name="today">Hoje</string>
+    <string name="history">Histórico</string>
+    <string name="settings">Ajustes</string>
+    <string name="all_set">Tudo pronto</string>
+    <string name="before_start_text_mood">Comece no seu ritmo</string>
+    <string name="quiet_mood">clima tranquilo</string>
+    <string name="start_journey">Começar jornada</string>
+    <string name="goal">Meta</string>
+    <string name="stable_mood">Energia estável</string>
+    <string name="stable_mood_description">Quando você começar, a energia acompanha o ritmo e muda conforme o tempo passa.</string>
+    <string name="start_time">Horário de início</string>
+    <string name="todays_time">Tempo de hoje</string>
+    <string name="complete_journey">Encerrar jornada</string>
+</resources>

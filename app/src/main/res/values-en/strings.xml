@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Horista</string>
+    <string name="today">Today</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="all_set">All set</string>
+    <string name="before_start_text_mood">Take it at your own pace</string>
+    <string name="quiet_mood">quiet mood</string>
+    <string name="start_journey">Start your journey</string>
+    <string name="goal">Goal</string>
+    <string name="stable_mood">Stable mood</string>
+    <string name="stable_mood_description">nce you begin, the energy follows your rhythm and changes over time.</string>
+    <string name="start_time">Start time</string>
+    <string name="todays_time">Today\'s time</string>
+    <string name="complete_journey">Complete journey</string>
+</resources>
